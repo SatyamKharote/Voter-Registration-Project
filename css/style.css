@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+}
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* Navbar styling */
+header .mynavbar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    background-color: rgb(42, 43, 43);
+    color: aliceblue;
+    flex-wrap: wrap;
+  
+   
+}
+
+header .mynavbar .mynavlist {
+    display: flex;
+    list-style: none;
+}
+header .mynavbar .mynavlist #item1{
+    font-family: 'Hind', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+} 
+header .mynavbar .mynavlist #item2{
+    margin-top: 1px;
+    font-size: 1.5rem;
+    font-weight: 500;
+} 
+header .mynavbar .mynavlist li a img{
+   
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 140px;
+    height: 80px;
+}
+header .mynavbar .mynavlist li a{
+    margin-left: 150px;
+
+}
+header .mynavbar img {
+    width: 140px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+/* End Navbar styling */
+
+/* Font-Setting styling */
+
+.font-setting{
+    padding-top: 10px;
+    text-align: center;
+    border: solid 0.5px rgb(221, 221, 221);
+    margin: 5px;
+    padding-bottom: 20px;
+
+}
+.font-setting button{
+    float: left;
+    width: 80px;
+    padding: 1px;
+    margin-left: 50px;
+    background-color: gray;
+    height: 28px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-color: #007bff;
+    color: aliceblue;
+}
+.font-setting button:hover{
+    background-color: #007bff;
+    cursor: pointer;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+}
+.btn-secondary {
+   color: aliceblue;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 3px;
+}
+.btn-secondary:hover {
+    color: aliceblue!important;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+.font-setting select {
+    float: right;
+    margin-right: 50px;
+    width: 150px;
+    padding-left: 50px;
+    height: 28px;
+    
+}
+
+/* End Font-Setting styling  */
+
+
+/* h3 */    
+h3 {
+    color: brown!important;
+    margin-left: 98px;
+    padding-top: 10px;
+    
+}
+
+/* container styling */
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(238, 238, 238);
+    margin: 0 290px;
+    padding: 20px;
+    border: solid 0.5px gray;
+    width: 70%;
+}
+.formheading{
+    font-weight: bold;
+    padding: 18px;
+    background-color: rgb(199, 197, 197);
+}
+.description{
+    padding: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;    
+    background-color: rgb(224, 171, 157);
+}
+
+/* state */
+.container .language{
+    margin-left: 100px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+/* input[type="checkbox"], input[type="radio"] {
+    margin: 0px 0px 0px!important;
+}
+label{
+    margin-bottom: 0px!important;
+    font-weight: normal!important;
+} */
+.container #state{
+    height: 30px;
+    width: 88px !important;
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+
+/* district */
+.container .language{
+    margin-left: 100px;
+}
+.container #district{
+    height: 30px;
+    width: 88px !important;
+    margin-left: 10px;
+    font-size: 15px;
+}
+/* legislative */
+.container .language{
+    margin-left: 100px;
+}
+.container #legislative{
+    height: 30px;
+    width: 88px !important;
+    margin-left: 10px;
+    font-size: 15px;
+}
+/* input */
+.container input{
+    height: 30px;
+    max-width: 400px;
+    border-radius: 5px;
+    border: rgb(0, 0, 0, 0.2) solid 1px;
+}
+
+.save{
+    width: 80px;
+    padding: 2px;
+    margin-left: 50px;
+    background-color: gray;
+    height: 38px;
+    font-size: 20px;
+}
+.save-surname{
+    width: 80px;
+    padding: 2px;
+    margin-left: 80px;
+    background-color: gray;
+    height: 38px;
+    font-size: 20px; 
+}
+.far {
+    font-weight: 400;
+}
+.change::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: black;
+}
+/* p */
+p{
+    border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+/* upload */
+.container .upload{
+    margin-left: 100px;
+}
+
+.container #document{
+    margin-left: 10px;
+
+}
+.container img{
+    width: 150px;
+}   
+.container .buttons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container .buttons #reset{
+    margin: 10px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+.container .buttons #submit{
+    padding-top: 4px;
+    font-weight: bold;
+}
+.container .form1 input{
+    outline: none;
+}
+/* footer */
+footer{
+    margin-top: 5px;
+    text-align: center;
+    height: 80px;
+    padding-top: 28px;
+    background-color: rgb(7, 7, 7);
+    color: darkgray;
+}
+
+/* End container styling */
